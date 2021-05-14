@@ -28,7 +28,7 @@ using namespace rapidjson;
 
 int main()
 {
-    const std::string url("http://date.jsontest.com/");
+    const std::string url("http://localhost/cmd.php");
 
     CURL* curl = curl_easy_init();
 
